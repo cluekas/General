@@ -27,7 +27,7 @@ public class Main {
             dex -= 1;
             char vars = input.charAt(index);
             int num = hex.indexOf(vars);
-            decimalNumber += num * Math.pow(16, dex);
+            decimalNumber += num * Math.pow(16, dex);  // Git Gud
             index += 1;
         }
 
